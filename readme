@@ -1,0 +1,48 @@
+= Msg =
+
+Msg is a minimal static site generator for personal wikis.
+
+== Syntax ==
+
+Msg generates static html documents from text files written in its markup syntax.
+
+=== Section ===
+
+You can create serveral level of sections by using ``=`` as you want. Surround the section name with ``=``.
+
+=== Paragraph ===
+
+To create or separate paragraph, insert two new lines where you want to.
+
+This is an exmaple paragraph.
+
+This is an another paragraph. This paragraph will not be seperated from the first one.
+
+Using a one newline
+does't separate paragrph. But this is not recommeneded.
+
+=== Text elements ===
+
+There's an in common rule: use two symbols to create inline element, use three symbols to create block element.
+
+**bold**, __underline__, ``monospaced``, --strikethrough--
+
+> qutation
+
+- unordered elem 1
+- unordered elem 2
+
+1. ordered elem 1
+2. ordered elem 2
+
+=== Reference ===
+
+You can add ``reference``s to refer URLs or pictures, or whatever external things. To refer something, use brackets to create references.
+
+This is an example reference to [[internal-document.txt]].
+
+[[party-parrot.png]]
+
+Following reference is an example of the ``block`` element. This will not be inlined in to paragraph even if you don't insert multiple newlines.
+
+[[https://youtube.com]]

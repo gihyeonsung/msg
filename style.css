@@ -1,0 +1,16 @@
+body
+{
+  margin: 0 auto;
+  max-width: 36rem;
+  padding: 1rem;
+}
+
+body > pre
+{
+  white-space: pre-wrap;
+}
+
+body > pre > pre
+{
+  display: inline;
+}
