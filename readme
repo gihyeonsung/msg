@@ -2,47 +2,20 @@
 
 Msg is a minimal static site generator for personal wikis.
 
+== Usage ==
+
+``./generate.sh <filepath>``
+
 == Syntax ==
 
 Msg generates static html documents from text files written in its markup syntax.
 
-=== Section ===
-
-You can create several levels of sections by using ``=`` as you want. Surround the section name with ``=``.
-
-=== Paragraph ===
-
-To create or separate paragraphs, insert two new lines where you want to.
-
-This is an example paragraph.
-
-This is another paragraph. This paragraph will not be separated from the first one.
-
-Using one newline
-doesn't separate paragraphs. But this is not recommended.
-
 === Text elements ===
 
-There's a common rule: use two symbols to create an inline element, use three symbols to create a block element.
-
 **bold**, __underline__, ``monospaced``, --strikethrough--
-
-> quotation
-
-- unordered elem 1
-- unordered elem 2
-
-1. ordered elem 1
-2. ordered elem 2
 
 === Reference ===
 
 To refer to something, use brackets to create references.
 
-This is an example reference to [[internal-document.txt]].
-
-[[party-parrot.png]]
-
-The following reference is an example of the ``block`` element. This will not be inlined into paragraph even if you don't insert multiple newlines.
-
-[[https://youtube.com]]
+This is an example reference to [[https://github.com/gihyeonsung/msg]].
