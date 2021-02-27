@@ -1,4 +1,5 @@
 #!/bin/sh
+cd "$(dirname "$0")" || exit 1
 echo "<!DOCTYPE html>"
 echo "<html lang="ko">"
 echo "<head>"
