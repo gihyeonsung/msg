@@ -12,7 +12,7 @@ Msg generates static html documents from text files written in its markup syntax
 
 === Text elements ===
 
-**bold**, __underline__, ``monospaced``, --strikethrough--
+**bold**, //italic//, __underline__, --strike--, ``monospaced``
 
 === Reference ===
 
