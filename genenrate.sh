@@ -6,7 +6,7 @@ echo "<head>"
 echo "<meta charset=\"utf-8\">"
 echo "<title>$1</title>"
 echo "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
-echo "<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\">"
+echo "<link rel=\"stylesheet\" href=\"index.css\" type=\"text/css\">"
 echo "</head>"
 echo "<body><pre>"
 echo "$( \
